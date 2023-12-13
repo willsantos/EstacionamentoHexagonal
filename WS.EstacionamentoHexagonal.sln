@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CD31A125-3B3B-4F62-9F56-F0FB55CF120E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.EstacionamentoHexagonal.Application", "WS.EstacionamentoHexagonal.Application\WS.EstacionamentoHexagonal.Application.csproj", "{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.EstacionamentoHexagonal.Domain", "WS.EstacionamentoHexagonal.Domain\WS.EstacionamentoHexagonal.Domain.csproj", "{77803378-DF90-4B79-8E9C-C61D5705607E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{38D34F9A-250B-4CA6-BE2E-48252FC1CFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driven", "Driven", "{E7ABEC5A-A108-474C-B869-B997D4244062}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{A101B1AF-7FF2-4831-9874-D99E0E0E341A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{68786C3B-F6F0-4106-93B1-41B7C6BAC39A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E7E6E367-512C-4881-8A0D-89241D63C2D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.EstacionamentoHexagonal.Api", "WS.EstacionamentoHexagonal.Api\WS.EstacionamentoHexagonal.Api.csproj", "{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{368E9868-0F84-4736-8AF1-9E0B7B83551A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS.EstacionamentoHexagonal.Infra.Data.MongoDbAdapter", "WS.EstacionamentoHexagonal.Infra.Data.MongoDbAdapter\WS.EstacionamentoHexagonal.Infra.Data.MongoDbAdapter.csproj", "{20BE5E20-A4BB-4257-9F5B-5939C69147A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS.EstacionamentoHexagonal.Tests", "WS.EstacionamentoHexagonal.Tests\WS.EstacionamentoHexagonal.Tests.csproj", "{89015589-C73E-4C8A-8F19-979B725BC2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77803378-DF90-4B79-8E9C-C61D5705607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77803378-DF90-4B79-8E9C-C61D5705607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77803378-DF90-4B79-8E9C-C61D5705607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77803378-DF90-4B79-8E9C-C61D5705607E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BE5E20-A4BB-4257-9F5B-5939C69147A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BE5E20-A4BB-4257-9F5B-5939C69147A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BE5E20-A4BB-4257-9F5B-5939C69147A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BE5E20-A4BB-4257-9F5B-5939C69147A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89015589-C73E-4C8A-8F19-979B725BC2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89015589-C73E-4C8A-8F19-979B725BC2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89015589-C73E-4C8A-8F19-979B725BC2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89015589-C73E-4C8A-8F19-979B725BC2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A42C0E55-4C1D-44A8-8025-1BFFB4A1BF31} = {CD31A125-3B3B-4F62-9F56-F0FB55CF120E}
+		{77803378-DF90-4B79-8E9C-C61D5705607E} = {CD31A125-3B3B-4F62-9F56-F0FB55CF120E}
+		{E7ABEC5A-A108-474C-B869-B997D4244062} = {38D34F9A-250B-4CA6-BE2E-48252FC1CFFF}
+		{A101B1AF-7FF2-4831-9874-D99E0E0E341A} = {38D34F9A-250B-4CA6-BE2E-48252FC1CFFF}
+		{C4B456A5-F390-4ADD-B5D1-B0215E10DAC0} = {68786C3B-F6F0-4106-93B1-41B7C6BAC39A}
+		{20BE5E20-A4BB-4257-9F5B-5939C69147A9} = {E7ABEC5A-A108-474C-B869-B997D4244062}
+		{89015589-C73E-4C8A-8F19-979B725BC2A0} = {E7E6E367-512C-4881-8A0D-89241D63C2D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB6CB701-3A17-4786-BD8F-19B28414DD37}
+	EndGlobalSection
+EndGlobal
