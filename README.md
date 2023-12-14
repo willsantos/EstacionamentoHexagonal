@@ -1,5 +1,7 @@
 # EstacionamentoHexagonal
-<img src=".github/logo.gif" alt="Logo da minha empresa" width="250" height="250"><br/>
+<div align="center">
+  <img src=".github/logo.gif" alt="Logo da minha empresa" width="250" height="250">
+</div>
 Este é um projeto que implementa uma arquitetura hexagonal para um sistema de estacionamento.
 
 
