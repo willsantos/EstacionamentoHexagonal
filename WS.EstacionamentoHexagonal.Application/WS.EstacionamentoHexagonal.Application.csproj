@@ -7,12 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Validators\" />
     <Folder Include="UseCases\" />
     <Folder Include="Services\" />
-    <Folder Include="Ports\" />
   </ItemGroup>
 
   <ItemGroup>

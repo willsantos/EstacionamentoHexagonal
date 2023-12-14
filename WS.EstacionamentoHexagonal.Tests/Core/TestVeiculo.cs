@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WS.EstacionamentoHexagonal.Domain.Entities;
+﻿using WS.EstacionamentoHexagonal.Domain.Entities;
 
 namespace WS.EstacionamentoHexagonal.Tests.Core
 {
