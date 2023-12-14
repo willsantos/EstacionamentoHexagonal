@@ -1,7 +1,7 @@
 # EstacionamentoHexagonal
 
 Este é um projeto que implementa uma arquitetura hexagonal para um sistema de estacionamento.
-[![logo do projeto gerado pelo Windows Copilot](./github/logo.gif)](https://github.com/willsantos/EstacionamentoHexagonal/blob/main/.github/logo.gif)
+![logo do projeto gerado pelo Windows Copilot](https://github.com/willsantos/EstacionamentoHexagonal/blob/main/.github/logo.gif)
 
 ## Sobre o projeto
 
