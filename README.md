@@ -1,8 +1,8 @@
 # EstacionamentoHexagonal
 
 Este é um projeto que implementa uma arquitetura hexagonal para um sistema de estacionamento.
-![logo do projeto gerado pelo Windows Copilot]("./assets/logo.jpg")
-![Estrutura do projeto .net]("assets/logo.jpg")
+![logo do projeto gerado pelo Windows Copilot]("./github/logo.jpg")
+
 ## Sobre o projeto
 
 O objetivo deste projeto é demonstrar como aplicar os princípios da arquitetura hexagonal em um cenário prático, usando dotnet core e ASP.NET. A arquitetura hexagonal é um padrão de design que visa separar a lógica de negócio da infraestrutura, facilitando a manutenção, a testabilidade e a adaptabilidade do código.
