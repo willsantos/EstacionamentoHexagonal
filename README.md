@@ -34,5 +34,4 @@ Para testar o projeto, você pode usar os seguintes comandos:
 Esse é um projeto pessoal de estudo, por isso não está aberto para contribuições, mas pode se sentir livre para fazer um fork e aplicar nos seus estudos.
 
 ## Licença
-Este projeto está licenciado sob a licença [MIT](https://github.com/willsantos/EstacionamentoHexagonal/blob/main/LICENSE). Veja o arquivo LICENSE para mais detalhes.
-
+Este projeto está licenciado sob a licença [MIT](https://raw.githubusercontent.com/willsantos/EstacionamentoHexagonal/main/LICENSE.md). Veja o arquivo LICENSE para mais detalhes.
