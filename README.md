@@ -35,4 +35,4 @@ Esse é um projeto pessoal de estudo, por isso não está aberto para contribui�
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE] para mais detalhes.
+Este projeto está licenciado sob a licença [MIT](LICENSE). Veja o arquivo LICENSE para mais detalhes.
