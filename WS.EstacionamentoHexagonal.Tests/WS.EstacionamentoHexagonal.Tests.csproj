@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -23,7 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WS.EstacionamentoHexagonal.Application\WS.EstacionamentoHexagonal.Application.csproj" />
     <ProjectReference Include="..\WS.EstacionamentoHexagonal.Domain\WS.EstacionamentoHexagonal.Domain.csproj" />
+    <ProjectReference Include="..\WS.EstacionamentoHexagonal.Infra.Data.MongoDbAdapter\WS.EstacionamentoHexagonal.Infra.Data.MongoDbAdapter.csproj" />
   </ItemGroup>
 
 </Project>

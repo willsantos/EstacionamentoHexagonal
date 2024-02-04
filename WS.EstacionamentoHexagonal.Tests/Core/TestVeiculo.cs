@@ -25,11 +25,11 @@ namespace WS.EstacionamentoHexagonal.Tests.Core
         [InlineData("EHX-17701")]
         public void Teste_QuandoPlacaInvalida_DeveLancarInvalidArgumentException(string placa)
         {
-            void novoVeiculo() => _ = new Veiculo(placa);
-
-            var excecao = Assert.Throws<ArgumentException>(novoVeiculo);
+            var excecao = Assert.Throws<ArgumentException>(NovoVeiculo);
             Assert.Equal("A placa não segue o formato válido (Parameter 'placa')", excecao.Message);
+            return;
 
+            void NovoVeiculo() => _ = new Veiculo(placa);
         }
 
         [Theory]      

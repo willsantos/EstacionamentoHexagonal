@@ -13,8 +13,7 @@ namespace WS.EstacionamentoHexagonal.Tests.Core
             var veiculo = new Veiculo("EHX-1770");
             var dataEntrada = DateTime.ParseExact("14-02-2023T14:30", "dd-MM-yyyyTHH:mm", CultureInfo.InvariantCulture);
             var dataSaida = DateTime.ParseExact("14-02-2023T15:30", "dd-MM-yyyyTHH:mm", CultureInfo.InvariantCulture);
-
-
+            
             var permanencia = new Permanencia(veiculo, dataEntrada);
 
             permanencia.RegistrarSaida(dataSaida);

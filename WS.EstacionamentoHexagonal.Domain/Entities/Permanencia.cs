@@ -30,7 +30,7 @@
             return tempoPermanencia;
         }
 
-        public Double CalculaValorPermanencia(double valorHora)
+        public double CalculaValorPermanencia(double valorHora)
         {
             var permanencia = CalculaTempoPermanencia();
             return permanencia.TotalHours * valorHora;

@@ -10,7 +10,7 @@ namespace WS.EstacionamentoHexagonal.Domain.Entities
         [GeneratedRegex(@"^[A-Z]{3}-?[0-9]{4}$|^[A-Z]{3}[0-9][A-Z][0-9]{2}$", RegexOptions.Compiled)]
         private static partial Regex RegexPlaca();
 
-        public string Placa { get; set; } = string.Empty;
+        public string Placa { get; set; }
 
         public Veiculo(string placa)
         {
