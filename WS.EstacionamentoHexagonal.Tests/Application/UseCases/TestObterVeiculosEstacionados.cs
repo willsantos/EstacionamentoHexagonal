@@ -4,7 +4,6 @@ using WS.EstacionamentoHexagonal.Application.Ports;
 using WS.EstacionamentoHexagonal.Application.UseCases;
 using WS.EstacionamentoHexagonal.Domain.Entities;
 
-
 namespace WS.EstacionamentoHexagonal.Tests.Application.UseCases;
 
 [Trait("TestObterVeiculosEstacionadosUsecase",
@@ -18,8 +17,8 @@ public class TestObterVeiculosEstacionados
         var repoMongo = Substitute.For<IPermanenciaRepository>();
         var veiculosEstacionadosEsperados = new List<Permanencia>
         {
-            new Permanencia(new Veiculo("ABC-1234"), DateTime.Now),
-            new Permanencia(new Veiculo("XYZ-7890"), DateTime.Now)
+            new(new Veiculo("ABC-1234"), DateTime.Now),
+            new(new Veiculo("XYZ-7890"), DateTime.Now)
         };
         var relatorioEsperado = new RelatorioVeiculosEstacionados
         {
@@ -33,7 +32,6 @@ public class TestObterVeiculosEstacionados
         // Act
         var veiculosEstacionados = await obterVeiculosEstacionados.Executar();
         // Assert
-
         Assert.NotNull(veiculosEstacionados);
     }
 }
