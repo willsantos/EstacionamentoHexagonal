@@ -9,7 +9,7 @@ using WS.EstacionamentoHexagonal.Application.Ports;
 
 namespace WS.EstacionamentoHexagonal.Application.UseCases
 {
-    public class RegistrarSaidaVeiculo : IRegistrarSaidaVeiculo
+    internal class RegistrarSaidaVeiculo : IRegistrarSaidaVeiculo
     {
         // ...
 

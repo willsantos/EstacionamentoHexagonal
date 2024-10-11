@@ -8,7 +8,7 @@ using WS.EstacionamentoHexagonal.Application.Ports;
 
 namespace WS.EstacionamentoHexagonal.Application.UseCases
 {
-    public class RegistrarEntradaVeiculo : IRegistrarEntradaVeiculo
+    internal class RegistrarEntradaVeiculo : IRegistrarEntradaVeiculo
     {
         public Task<ResumoEntradaVeiculoDto> Executar(RegistroEntradaVeiculoDto registroEntrada)
         {

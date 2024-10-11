@@ -15,5 +15,12 @@
   <ItemGroup>
     <ProjectReference Include="..\WS.EstacionamentoHexagonal.Domain\WS.EstacionamentoHexagonal.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>WS.EstacionamentoHexagonal.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+
 
 </Project>

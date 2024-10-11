@@ -8,7 +8,7 @@ using WS.EstacionamentoHexagonal.Application.Ports;
 
 namespace WS.EstacionamentoHexagonal.Application.UseCases
 {
-    public class ObterVeiculosEstacionados : IObterVeiculosEstacionados
+    internal class ObterVeiculosEstacionados : IObterVeiculosEstacionados
     {
         private readonly IPermanenciaRepository _repository;
 
@@ -16,8 +16,7 @@ namespace WS.EstacionamentoHexagonal.Application.UseCases
         {
             _repository = repository;
         }
-
-
+        
         public Task<RelatorioVeiculosEstacionados> Executar()
         {
            return _repository.Buscar();

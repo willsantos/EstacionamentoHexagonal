@@ -38,13 +38,11 @@ namespace WS.EstacionamentoHexagonal.Tests.Core
         [InlineData("       ")]
         public void Teste_QuandoPlacaVazia_DeveLancarInvalidArgumentException(string placa)
         {
-
-            void novoVeiculo() => _ = new Veiculo(placa);
-            
-
-            var excecao = Assert.Throws<ArgumentException>(novoVeiculo);
+            var excecao = Assert.Throws<ArgumentException>(NovoVeiculo);
             Assert.Equal("A placa não pode ser nula ou vazia (Parameter 'placa')", excecao.Message);
+            return;
 
+            void NovoVeiculo() => _ = new Veiculo(placa);
         }
 
     }
